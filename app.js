@@ -1,7 +1,7 @@
 const express = require('express');
 const nunjucks = require('nunjucks');
 const indexRouter = require('./routes/index');
-const createError = require('http-errors');
+const createError = require('http-errors'); //Fixa
 
 const app = express();
 const port = 3000;
