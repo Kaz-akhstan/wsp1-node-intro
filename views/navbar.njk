@@ -1,9 +1,15 @@
-<nav>
-    <ul>
-        {% for item in nav %}
-        <li>
-            <a href="{{ item.url }}">{{ item.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
+<nav class="navbar">
+    <div class="navbar__inner container">
+        <h1>Hemsida</h1>
+        <button class="navbar__button"><span class="material-symbols-outlined">menu</span></button>
+        <div class="navbar__collapse">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/item">Item</a></li>
+                <li><a href="">Item</a></li>
+                <li><a href="">Item</a></li>
+                <li><a href="">Item</a></li>
+            </ul>
+        </div>
+    </div>
 </nav>
