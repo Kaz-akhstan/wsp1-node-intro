@@ -75,6 +75,7 @@ select {
   position: sticky;
   top: 0;
   background-color: #563e98;
+  margin-bottom: 1rem;
 }
 @media (max-width: 599px) {
   .navbar {
@@ -105,6 +106,12 @@ select {
 @media (max-width: 599px) {
   .navbar__collapse {
     display: none;
+  }
+  .navbar__collapse > ul {
+    width: 100%;
+  }
+  .navbar__collapse > ul li > a {
+    width: 100%;
   }
 }
 .navbar__collapse > ul {

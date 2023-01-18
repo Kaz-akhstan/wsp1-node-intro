@@ -7,6 +7,7 @@ $main-colour: #563e98;
     position: sticky;
     top: 0;
     background-color: $main-colour;
+    margin-bottom: 1rem;
     @media (max-width: 599px) {
         padding: $nav-padding 0;
     }
@@ -32,6 +33,12 @@ $main-colour: #563e98;
     &__collapse {
         @media (max-width: 599px) {
             display: none;
+            > ul {
+                width: 100%;
+                li > a {
+                    width: 100%;
+                }
+            }
         }
         > ul {
             margin: 0;
